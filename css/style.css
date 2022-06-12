@@ -1,0 +1,92 @@
+/*  font-family: 'Lora', serif;
+    font-family: 'Ubuntu', sans-serif */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+}
+
+/* ====Typography==== */
+
+h1 {
+  font-size: 3.3rem;
+  color: #143774;
+  font-family: "Lora", serif;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #1792d2;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* ===Layout=== */
+
+header {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 3.2em;
+}
+
+.container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 650px) {
+  .container-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* ===Navigation=== */
+nav ul {
+  list-style-type: none;
+}
+
+@media (min-width: 650px) {
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+nav li {
+  margin: 1.5em;
+}
+
+nav a {
+  font-size: 1.6rem;
+  color: #717171;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0.2em 0;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #1792d2;
+}
+
+.current-page {
+  border-bottom: 1px solid #717171;
+}
+
+.current-page:hover {
+  color: #717171;
+}
