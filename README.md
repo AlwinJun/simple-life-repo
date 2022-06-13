@@ -1,3 +1,3 @@
-#Powell Crash course 2
+#KP resposive web design
 
-Reponsive website with navigations
+Developing Kevin Powell web design on Adobe
