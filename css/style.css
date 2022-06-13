@@ -1,9 +1,6 @@
 /*  font-family: 'Lora', serif;
     font-family: 'Ubuntu', sans-serif */
-
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
 }
 
@@ -19,6 +16,7 @@ body {
 }
 
 img {
+  width: 100%;
   max-width: 100%;
   display: block;
 }
@@ -85,6 +83,9 @@ a:focus {
   text-decoration: underline;
 }
 
+.article-info {
+  margin: 2em 0;
+}
 /* ===LAYOUT=== */
 
 header {
@@ -104,6 +105,22 @@ header {
     display: flex;
     justify-content: space-between;
   }
+
+  .main {
+    width: 75%;
+  }
+
+  .sidebar {
+    width: 20%;
+  }
+}
+
+/* ARTICLE */
+
+.article-main {
+  padding-bottom: 1em;
+  margin-bottom: 1.6em;
+  border-bottom: 1px solid #707070;
 }
 
 /* ===NAVIGATION=== */
